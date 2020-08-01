@@ -4,6 +4,11 @@ systempath=$1
 thispath=`cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd`
 
 rm -rf $1/product/app/Drive
+rm -rf $1/product/app/Chrome
+rm -rf $1/product/app/Gmail2
+rm -rf $1/product/app/Music2
+rm -rf $1/product/app/Photos
+rm -rf $1/product/app/Videos
 rm -rf $1/product/app/Duo
 rm -rf $1/product/app/Maps
 rm -rf $1/product/app/YouTube
