@@ -4,6 +4,16 @@ systempath=$1
 thispath=`cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd`
 
 rm -rf $1/app/cit
+rm -rf $1/app/CameraTools
+rm -rf $1/app/DeskClock
+rm -rf $1/app/FM
+rm -rf $1/app/MiCloudSync
+rm -rf $1/app/MiEarth
+rm -rf $1/app/MiMars
+rm -rf $1/app/MiRadio
+rm -rf $1/app/MiuiCompass
+rm -rf $1/app/Video
+rm -rf $1/app/Wallpaper
 rm -rf $1/app/MiuiCompass
 rm -rf $1/app/MiuiScreenRecorder
 rm -rf $1/app/MiuiVideoGlobal
@@ -26,6 +36,8 @@ rm -rf $1/app/BuiltInPrintService
 rm -rf $1/app/PrintSpooler
 rm -rf $1/app/SoterService
 rm -rf $1/priv-app/Backup
+rm -rf $1/priv-app/MiuiCamera
+rm -rf $1/priv-app/SoundRecorder
 rm -rf $1/priv-app/Browser
 rm -rf $1/priv-app/Calendar
 rm -rf $1/priv-app/CleanMaster
