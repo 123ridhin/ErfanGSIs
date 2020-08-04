@@ -5,8 +5,8 @@
 PARTITIONS=("system" "product" "opproduct")
 payload_extractor="ErfanGSIs/tools/update_payload_extractor/extract.py"
 LOCALDIR=$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)
-outdir="$LOCALDIR/cache"
-tmpdir="$outdir/tmp"
+outdir="$LOCALDIR/ErfanGSIs/cache"
+tmpdir="$outdir/ErfanGSIs/tmp"
 #############################################################
 
 usage() {
@@ -60,7 +60,7 @@ echo "Copying Files . . . . "
 	umount system-old
 	rm $outdir/system-old.img
 	rm -rf system/product
-	ln -s system/product system/product
+	ln -s ErfanGSIs/system/product ErfanGSIs/system/product
     	rm -rf system/system/product
     	mkdir system/system/product/
 echo "Merging product.img "
