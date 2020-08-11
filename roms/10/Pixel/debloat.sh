@@ -24,7 +24,6 @@ rm -rf $1/product_services/priv-app/PrebuiltGmsCorePi/app_chimera
 rm -rf $1/product/priv-app/PrebuiltGmsCoreQt/app_chimera
 rm -rf $1/etc/permissions/com.google.android.camera.experimental2017.xml
 rm -rf $1/product/app/GoogleCamera
-rm -rf $1/product/app/NexusWallpapersStubPrebuilt2017
 rm -rf $1/product/app/WallpapersBReel2017
 rm -rf $1/product/priv-app/EuiccSupportPixel
 rm -rf $1/product/priv-app/WfcActivation
