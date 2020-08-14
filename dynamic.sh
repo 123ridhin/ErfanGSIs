@@ -3,10 +3,10 @@
 #Variables
 
 PARTITIONS=("system" "product" "opproduct")
-payload_extractor="ErfanGSIs/tools/update_payload_extractor/extract.py"
+payload_extractor="tools/update_payload_extractor/extract.py"
 LOCALDIR=$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)
-outdir="$LOCALDIR/ErfanGSIs/cache"
-tmpdir="$outdir/ErfanGSIs/tmp"
+outdir="$LOCALDIR/cache"
+tmpdir="$outdir/tmp"
 #############################################################
 
 usage() {
