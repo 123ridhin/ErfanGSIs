@@ -13,19 +13,6 @@ simg2img="$tools/bin/simg2img"
 
 ###############WE ARE WONDERFUL########################
 
-usage() {
-     echo "Usage: $0 <Firmware Type> [Path to Firmware]"
-     echo -e "\tFirmware Type! = MIUI
-     echo -e "\tpath to Firmware!"
-     
-}     
- 
-if [ "$1" == "" ]; then
-    echo "Enter all needed Parameters"
-    usage 
-    ecit 1
-fi 
-
 
 echo "Create tmp and out dir"
    mkdir -p "$tmpdir"
