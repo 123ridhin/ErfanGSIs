@@ -66,21 +66,4 @@ echo "unzip the product partition......"
     sudo rm -rf $tmpdir
     sudo cp $tmpdir/final.img $outdir
     sudo mv $outdir/final.img systemready.img
-    
-    
-      
-echo "Please finish the GSI using make.sh or url2GSI.sh script"      
-
-
-
-     
-      
-      
-         
-       
-
-
-
-
-
-
+    echo "Please finish creating GSI using make.sh script"
