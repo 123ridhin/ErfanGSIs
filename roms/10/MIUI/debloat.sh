@@ -31,9 +31,7 @@ rm -rf $1/app/NexyPay
 rm -rf $1/app/com.miui.qr
 rm -rf $1/app/FM
 rm -rf $1/app/MiuiBugReport
-rm -rf $1/priv-app/MiuiVideo
 rm -rf $1/priv-app/PersonalAssistant
-rm -rf $1/priv-app/MiuiCamera
 rm -rf $1/priv-app/MiService
 rm -rf $1/app/AnalyticsCore
 rm -rf $1/app/BasicDreams
