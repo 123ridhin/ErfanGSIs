@@ -20,7 +20,7 @@ echo "Create tmp and out dir"
   
   
   
-unzip $2 -d $tmpdir &> /dev/null 
+unzip *.zip -p -d $tmpdir &> /dev/null 
 echo "Extractin the only required partitions....:}..."
 echo "Converting Brotli... to system"
 if [ $1 = "MIUI" ]; then 
