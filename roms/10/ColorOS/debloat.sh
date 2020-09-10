@@ -4,6 +4,25 @@ systempath=$1
 thispath=`cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd`
 
 rm -rf $1/app/BackupAndRestore
+rm -rf $1/app/BTtestmode
+rm -rf $1/app/Calculator2
+rm -rf $1/app/ChildrenSpace
+rm -rf $1/app/Clock
+rm -rf $1/app/com.oppo.starlogkit-19688
+rm -rf $1/app/FileEncryption
+rm -rf $1/app/Gamecenter
+rm -rf $1/app/KeKePay
+rm -rf $1/app/NQNfcNci
+rm -rf $1/app/OppoCamera
+rm -rf $1/app/OppoCompass2
+rm -rf $1/app/OppoLogKit_Beta
+rm -rf $1/app/OppoMultiApp
+rm -rf $1/app/OppoOperationManualExp
+rm -rf $1/app/OppoTranslationService
+rm -rf $1/app/OppoWeather2
+rm -rf $1/app/OShare
+rm -rf $1/app/PhoneManager
+rm -rf $1/app/SafeCenter
 rm -rf $1/app/ARCore_stub
 rm -rf $1/app/ATMWifiMeta
 rm -rf $1/app/AfterSalesService
@@ -76,6 +95,16 @@ rm -rf $1/app/SecurePay
 rm -rf $1/app/SecureElement
 rm -rf $1/app/SafeCenter
 rm -rf $1/priv-app/Blacklist
+rm -rf $1/priv-app/Browser
+rm -rf $1/priv-app/CloudService
+rm -rf $1/priv-app/GlobalSearch
+rm -rf $1/priv-app/HeyTapUserCenter
+rm -rf $1/priv-app/KeKeMarket
+rm -rf $1/priv-app/NewSoundRecorder
+rm -rf $1/priv-app/OppoGallery2
+rm -rf $1/priv-app/SmartDrive
+rm -rf $1/priv-app/SOSHelper
+rm -rf $1/priv-app/VideoGallery
 rm -rf $1/priv-app/BackupRestoreConfirmation
 rm -rf $1/priv-app/Browser
 rm -rf $1/priv-app/EngineerMode
@@ -101,6 +130,12 @@ rm -rf $1/priv-app/OppoGallery2
 rm -rf $1/priv-app/VideoGallery
 rm -rf $1/priv-app/Velvet
 rm -rf $1/priv-app/VideoGallery
+rm -rf $1/product/Chrome
+rm -rf $1/product/Gmail2
+rm -rf $1/product/Keep
+rm -rf $1/product/Maps
+rm -rf $1/product/priv-app
+rm -rf $1/product/Youtube
 rm -rf $1/reserve
 rm -rf $1/app/com.amazon.appmanager
 rm -rf $1/app/com.facebook.appmanager
