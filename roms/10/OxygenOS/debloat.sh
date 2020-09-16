@@ -28,7 +28,6 @@ rm -rf $1/product/app/GoogleTTS
 rm -rf $1/app/OEMLogKit
 rm -rf $1/app/OPBackup
 rm -rf $1/product/app/Videos
-rm -rf $1/priv-app/OnePlusCamera
 rm -rf $1/priv-app/OnePlusGallery
 rm -rf $1/priv-app/Velvet
 rm -rf $1/priv-app/OPFaceUnlock
